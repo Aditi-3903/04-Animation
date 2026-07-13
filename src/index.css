@@ -1,0 +1,75 @@
+@import "tailwindcss";
+
+@font-face {
+    font-family: Font1;
+    src: url(../public/Fonts/Lausanne-300.woff2);
+}
+@font-face {
+    font-family: Font2;
+    src: url(../public/Fonts/Lausanne-500.woff2);
+}
+
+/* body{
+    background-color: #222;
+    color: white;
+} */
+
+.moveX{
+    animation-name:moveAnimation;
+    animation-duration: 7s;
+    animation-iteration-count: infinite;
+    animation-timing-function: linear;
+}
+
+.moveLink{
+    opacity:0;
+    transition:all 0.3s;
+
+}
+
+.link:hover .moveLink{
+    opacity: 1;
+}
+@keyframes moveAnimation{
+    from{
+        transform:translateX(0);
+    }
+     to{
+        transform:translateX(-100%);
+    }
+}
+
+.page_404 {
+  padding: 40px 0;
+  background: #fff;
+  font-family: "Arvo", serif;
+}
+
+.page_404 img {
+  width: 100%;
+}
+
+.four_zero_four_bg {
+  background-image: url(https://cdn.dribbble.com/users/285475/screenshots/2083086/dribbble_1.gif);
+  height: 400px;
+  background-position: center;
+}
+
+.four_zero_four_bg h1 {
+  font-size: 80px;
+}
+
+.four_zero_four_bg h3 {
+  font-size: 80px;
+}
+
+.link_404 {
+  color: #fff !important;
+  padding: 10px 20px;
+  background: #39ac31;
+  margin: 20px 0;
+  display: inline-block;
+}
+.contant_box_404 {
+  margin-top: -50px;
+}
