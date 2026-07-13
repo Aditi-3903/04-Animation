@@ -245,7 +245,7 @@ const FullScreenNav = () => {
             </h1>
 
             <div className="moveLink absolute flex top-0 bg-[#D3FD50] text-black">
-              <Link onClick={useGSAP()}className="moveX flex  items-center">
+              <Link to='/*' onClick={useGSAP()}  className="moveX flex  items-center">
                <h2 className="whitespace-nowrap font-[font2] lg:text-[8vw] text-3xl pt-2 text-center lg:leading-[0.8]   lg:pt-5 uppercase">
                   lire les articles
                 </h2>
