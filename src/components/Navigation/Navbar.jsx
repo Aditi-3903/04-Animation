@@ -6,7 +6,6 @@ const Navbar = () => {
 const navGreenRef = useRef(null)
 const [navOpen,setNavOpen] = useContext(NavbarContext)
 const [navColor,setNavColor] = useContext(NavbarColorContext)
-// const lineRef = useRef(null)
 
   return (
     <div className="z-4   flex fixed top-0 w-full items-start justify-between">
@@ -30,12 +29,12 @@ const [navColor,setNavColor] = useContext(NavbarColorContext)
       }}
        onMouseEnter={() => {
         navGreenRef.current.style.height ='100%'
-        // lineRef.current.style.color = 'black'
+       
       }}
 
       onMouseLeave={() => {
         navGreenRef.current.style.height ='0%'
-        //  lineRef.current.style.color = 'white'
+        
       }}
         className="lg:h-[3.7vw] h-11 bg-black relative lg:w-[17vw] w-48">
         <div ref={navGreenRef} className=" bg-[#D3FD50] transition-all absolute top-0 h-0 w-full "> </div>

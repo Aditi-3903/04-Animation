@@ -6,12 +6,8 @@ import Projects from "./Pages/Projects";
 import Navbar from "./components/Navigation/Navbar";
 import FullScreenNav from "./components/Navigation/FullScreenNav";
 import Contact from "./Pages/Contact";
-import Blogs from "./Pages/Blogs";
-
 
 const App = () => {
-
- 
 
   return (
     <div className="overflow-x-hidden">
@@ -19,13 +15,14 @@ const App = () => {
       <FullScreenNav />
     <Routes>
         <Route path="/" element={<Home />} />
-        <Route path="/Agence" element={<Agence />} />
-        <Route path="/Projects" element={<Projects />} />
-        <Route path='*' element={<Contact />}/>
-        {/* <Route path='/*' element={<Blogs/>}/> */}
+       <Route path="/Agence" element={<Agence />} />
+       <Route path="/Projects" element = {<Projects />}/>
+       <Route path='/Contact' element={<Contact/>}/>
+       <Route path='*' element={<Contact/>}/>
       </Routes>
     </div>
   );
 };
 
 export default App;
+

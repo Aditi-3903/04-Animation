@@ -8,28 +8,28 @@ const Projects = () => {
 
  const project = [
   {
-    image1: "/Photoes/image1.jpg",
-    image2: "/Photoes/image2.jpg",
+    image1:"/04-Animation/Photoes/image1.jpg",
+    image2:"/04-Animation/Photoes/image2.jpg",
   },
   {
-    image1: "/Photoes/image3.jpg",
-    image2: "/Photoes/image4.jpg",
+    image1:"/04-Animation/Photoes/image3.jpg",
+    image2: "/04-Animation/Photoes/image4.jpg",
   },
   {
-    image1: "/Photoes/image5.jpg",
-    image2: "/Photoes/image6.jpg",
+    image1: "/04-Animation/Photoes/image5.jpg",
+    image2: "/04-Animation/Photoes/image6.jpg",
   },
   {
-    image1: "/Photoes/image7.jpg",
-    image2: "/Photoes/image8.jpg",
+    image1: "/04-Animation/Photoes/image7.jpg",
+    image2: "/04-Animation/Photoes/image8.jpg",
   },
    {
-    image1: "/Photoes/image4.jpg",
-    image2: "/Photoes/image3.jpg",
+    image1: "/04-Animation/Photoes/image1.jpg",
+    image2: "/04-Animation/Photoes/image2.jpg",
   },
    {
-    image1: "/Photoes/image2.jpg",
-    image2: "/Photoes/image1.jpg",
+    image1: "/04-Animation/Photoes/image3.jpg",
+    image2: "/04-Animation/Photoes/image4.jpg",
   },
 ];
 gsap.registerPlugin(useGSAP,ScrollTrigger)

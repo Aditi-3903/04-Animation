@@ -13,7 +13,7 @@ const Home = () => {
        <HomeBottomText/>
       </div>
     </div>
-  )
+  );
 }
 
 export default Home

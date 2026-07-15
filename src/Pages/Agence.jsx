@@ -10,13 +10,13 @@ const Agence = () => {
   const imageref = useRef(null);
 
   const imageArray = [
-    "../../../public/Photoes/img1.jpg",
-    "../../../public/Photoes/img2.jpg",
-    "../../../public/Photoes/img3.jpg",
-    "../../../public/Photoes/img4.jpg",
-    "../../../public/Photoes/img5.jpg",
-    "../../../public/Photoes/img6.jpg",
-    "../../../public/Photoes/img7.jpg",
+    "/04-Animation/Photoes/img1.jpg",
+    "/04-Animation/Photoes/img2.jpg",
+    "/04-Animation/Photoes/img3.jpg",
+    "/04-Animation/Photoes/img4.jpg",
+    "/04-Animation/Photoes/img5.jpg",
+    "/04-Animation/Photoes/img6.jpg",
+    "/04-Animation/Photoes/img7.jpg",
   ];
 
   useGSAP(function () {
@@ -69,7 +69,12 @@ const Agence = () => {
           <div className="lg:pl-[40%] lg:mt-0.5 mt-20 ">
             <p className="lg:text-5xl text-[5.5vw] p-2 leading-5.5 lg:leading-12">
               &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-             Notre curiosité nourrit notre créativité. On reste humbles et on dit non aux gros egos, même le vôtre. Une marque est vivante. Elle a des valeurs, une personnalité, une histoire. Si on oublie ça, on peut faire de bons chiffres à court terme, mais on la tue à long terme. C’est pour ça qu’on s’engage à donner de la perspective, pour bâtir des marques influentes.
+              Notre curiosité nourrit notre créativité. On reste humbles et on
+              dit non aux gros egos, même le vôtre. Une marque est vivante. Elle
+              a des valeurs, une personnalité, une histoire. Si on oublie ça, on
+              peut faire de bons chiffres à court terme, mais on la tue à long
+              terme. C’est pour ça qu’on s’engage à donner de la perspective,
+              pour bâtir des marques influentes.
             </p>
           </div>
         </div>

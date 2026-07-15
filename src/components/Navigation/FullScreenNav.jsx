@@ -134,7 +134,9 @@ const FullScreenNav = () => {
             </h1>
 
             <div className=" moveLink  absolute flex top-0 bg-[#D3FD50] text-black">
-              <Link to='/Projects' onClick={useGSAP()} className="moveX flex  items-center">
+              <Link to='/Projects' onClick={()=>{
+                setNavOpen(false)
+              }} className="moveX flex  items-center">
                 <h2 className="whitespace-nowrap font-[font2] lg:text-[8vw] text-3xl pt-2 text-center lg:leading-[0.8] leading-1  lg:pt-5 uppercase">
                   Pour tout voir
                 </h2>
@@ -176,7 +178,9 @@ const FullScreenNav = () => {
             </h1>
 
             <div className="moveLink absolute flex top-0 bg-[#D3FD50] text-black">
-              <Link to='/Agence' onClick={useGSAP()} className="moveX flex  items-center">
+              <Link to='/Agence' onClick={()=>{
+                setNavOpen(false)
+              }}   className="moveX flex  items-center">
                 <h2 className="whitespace-nowrap font-[font2] lg:text-[8vw] text-3xl text-center leading-[0.8] pt-2 lg:pt-5 uppercase">
                   Pour tout savoir
                 </h2>
@@ -216,7 +220,9 @@ const FullScreenNav = () => {
             </h1>
 
             <div className="moveLink absolute flex top-0 bg-[#D3FD50] text-black">
-              <Link to='/*' onClick={useGSAP()} className="moveX flex  items-center">
+              <Link to='/Contact' onClick={()=>{
+                setNavOpen(false)
+              }}   className="moveX flex  items-center">
                 <h2 className="whitespace-nowrap font-[font2] lg:text-[7vw] text-3xl text-center   uppercase">
                   Pour envoyer un fax
                 </h2>
@@ -240,12 +246,14 @@ const FullScreenNav = () => {
           </div>
 
           <div className="link origin-top relative  border-b border-gray-400">
-            <h1 className="font-[font2] lg:text-[8vw] text-5xl text-center leading-[0.8] lg:pt-5 pt-2 uppercase">
+            <h1  className="font-[font2] lg:text-[8vw] text-5xl text-center leading-[0.8] lg:pt-5 pt-2 uppercase">
               Blogue
             </h1>
 
             <div className="moveLink absolute flex top-0 bg-[#D3FD50] text-black">
-              <Link to='/*' onClick={useGSAP()}  className="moveX flex  items-center">
+              <Link  to= '*' onClick={()=>{
+                setNavOpen(false)
+              }}  className="moveX flex  items-center">
                <h2 className="whitespace-nowrap font-[font2] lg:text-[8vw] text-3xl pt-2 text-center lg:leading-[0.8]   lg:pt-5 uppercase">
                   lire les articles
                 </h2>
